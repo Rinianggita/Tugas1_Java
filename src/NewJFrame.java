@@ -36,10 +36,10 @@ public class NewJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jTabbedPane3.addTab("tab1", newJPanel1);
-        jTabbedPane3.addTab("tab2", newJPanel12);
-        jTabbedPane3.addTab("tab3", newJPanel21);
-        jTabbedPane3.addTab("tab4", newJPanel31);
+        jTabbedPane3.addTab("penjumlahan", newJPanel1);
+        jTabbedPane3.addTab("pengurangan", newJPanel12);
+        jTabbedPane3.addTab("perkalian", newJPanel21);
+        jTabbedPane3.addTab("pembagian", newJPanel31);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
