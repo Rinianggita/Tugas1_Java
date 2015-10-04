@@ -107,11 +107,11 @@ public class NewJPanel1 extends javax.swing.JPanel {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-          Integer satu,dua,hasil;
-        satu= Integer.parseInt(jTextField1.getText());
-        dua= Integer.parseInt(jTextField2.getText());
+          Integer bil1,bil2,hasil;
+        bil1= Integer.parseInt(jTextField1.getText());
+        bil2= Integer.parseInt(jTextField2.getText());
         
-        hasil =satu-dua;
+        hasil =bil1-bil2;
         jTextField3.setText(""+hasil);
     }//GEN-LAST:event_jButton1ActionPerformed
 

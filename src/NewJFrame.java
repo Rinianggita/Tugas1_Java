@@ -32,14 +32,14 @@ public class NewJFrame extends javax.swing.JFrame {
         newJPanel1 = new NewJPanel();
         newJPanel12 = new NewJPanel1();
         newJPanel21 = new NewJPanel2();
-        newJPanel32 = new NewJPanel3();
+        newJPanel31 = new NewJPanel3();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jTabbedPane3.addTab("penjumlahan", newJPanel1);
-        jTabbedPane3.addTab("pengurangan", newJPanel12);
-        jTabbedPane3.addTab("perkalian", newJPanel21);
-        jTabbedPane3.addTab("pembagian", newJPanel32);
+        jTabbedPane3.addTab("tab1", newJPanel1);
+        jTabbedPane3.addTab("tab2", newJPanel12);
+        jTabbedPane3.addTab("tab3", newJPanel21);
+        jTabbedPane3.addTab("tab4", newJPanel31);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -105,6 +105,6 @@ public class NewJFrame extends javax.swing.JFrame {
     private NewJPanel1 newJPanel11;
     private NewJPanel1 newJPanel12;
     private NewJPanel2 newJPanel21;
-    private NewJPanel3 newJPanel32;
+    private NewJPanel3 newJPanel31;
     // End of variables declaration//GEN-END:variables
 }
