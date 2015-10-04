@@ -44,6 +44,12 @@ public class NewJPanel3 extends javax.swing.JPanel {
             }
         });
 
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
+
         jButton1.setText("/");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -104,13 +110,18 @@ public class NewJPanel3 extends javax.swing.JPanel {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-          Integer satu,dua,hasil;
-        satu= Integer.valueOf(jTextField1.getText());
-        dua= Integer.valueOf(jTextField2.getText());
+          Float satu,dua,hasil;
+          DecimalFormat df=float DecimalFormat (".##");
+        satu= Float.parseFloat(jTextField1.getText());
+        dua= Float.parseFloat(jTextField2.getText());
         
         hasil=satu/dua;
-        jTextField3.setText(""+hasil);
+        jTextField3.setText(df.format(hasil));
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

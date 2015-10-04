@@ -26,18 +26,20 @@ public class NewJFrame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        newJPanel11 = new NewJPanel1();
         jTabbedPane1 = new javax.swing.JTabbedPane();
+        jTabbedPane3 = new javax.swing.JTabbedPane();
         newJPanel1 = new NewJPanel();
         newJPanel12 = new NewJPanel1();
-        newJPanel22 = new NewJPanel2();
+        newJPanel21 = new NewJPanel2();
         newJPanel32 = new NewJPanel3();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jTabbedPane1.addTab("PENJUMLAHAN", newJPanel1);
-        jTabbedPane1.addTab("PENGURANGAN", newJPanel12);
-        jTabbedPane1.addTab("PERKALIAN", newJPanel22);
-        jTabbedPane1.addTab("PEMBAGIAN", newJPanel32);
+        jTabbedPane3.addTab("penjumlahan", newJPanel1);
+        jTabbedPane3.addTab("pengurangan", newJPanel12);
+        jTabbedPane3.addTab("perkalian", newJPanel21);
+        jTabbedPane3.addTab("pembagian", newJPanel32);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -45,7 +47,9 @@ public class NewJFrame extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(jTabbedPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 451, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(158, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -53,6 +57,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGap(25, 25, 25)
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 264, Short.MAX_VALUE)
                 .addContainerGap())
+            .addComponent(jTabbedPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
         );
 
         pack();
@@ -95,9 +100,11 @@ public class NewJFrame extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTabbedPane jTabbedPane3;
     private NewJPanel newJPanel1;
+    private NewJPanel1 newJPanel11;
     private NewJPanel1 newJPanel12;
-    private NewJPanel2 newJPanel22;
+    private NewJPanel2 newJPanel21;
     private NewJPanel3 newJPanel32;
     // End of variables declaration//GEN-END:variables
 }
